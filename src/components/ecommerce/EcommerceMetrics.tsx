@@ -20,8 +20,8 @@ function MetricCard({ title, value, change, isPositive, icon }: MetricCardProps)
 
       <div className="flex items-end justify-between mt-5">
         <div>
-          <span className="text-sm text-gray-500 dark:text-gray-400">{title}</span>
-          <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">{value}</h4>
+          <span className="text-sm text-gray-700 dark:text-gray-300">{title}</span>
+          <h4 className="mt-2 font-bold text-gray-900 text-title-sm dark:text-white">{value}</h4>
         </div>
 
         <span

@@ -89,8 +89,8 @@ export default function StatisticsChart() {
     <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
       <div className="flex flex-col gap-4 mb-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">Statistika</h3>
-          <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Statistika</h3>
+          <p className="mt-1 text-gray-700 text-theme-sm dark:text-gray-300">
             Metiniu pajamu ir islainiu apzvalga
           </p>
         </div>

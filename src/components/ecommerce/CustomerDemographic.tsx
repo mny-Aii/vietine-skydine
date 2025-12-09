@@ -21,10 +21,10 @@ export default function CustomerDemographic() {
   return (
     <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6 h-full">
       <div className="mb-6">
-        <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
           Klientu demografija
         </h3>
-        <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
+        <p className="mt-1 text-gray-700 text-theme-sm dark:text-gray-300">
           Klientu pasiskirstymas pagal salis
         </p>
       </div>
@@ -35,10 +35,10 @@ export default function CustomerDemographic() {
             <span className="text-2xl">{item.flag}</span>
             <div className="flex-1">
               <div className="flex items-center justify-between mb-1">
-                <span className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
+                <span className="font-medium text-gray-900 text-theme-sm dark:text-white">
                   {item.country}
                 </span>
-                <span className="text-gray-500 text-theme-sm dark:text-gray-400">
+                <span className="text-gray-700 text-theme-sm dark:text-gray-300">
                   {item.customers.toLocaleString()} klientu
                 </span>
               </div>
@@ -49,7 +49,7 @@ export default function CustomerDemographic() {
                 ></div>
               </div>
             </div>
-            <span className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
+            <span className="font-medium text-gray-900 text-theme-sm dark:text-white">
               {item.percent}%
             </span>
           </div>
@@ -58,8 +58,8 @@ export default function CustomerDemographic() {
 
       <div className="pt-4 mt-6 border-t border-gray-200 dark:border-gray-800">
         <div className="flex items-center justify-between">
-          <span className="text-gray-500 text-theme-sm dark:text-gray-400">Viso klientu</span>
-          <span className="font-semibold text-gray-800 dark:text-white/90">
+          <span className="text-gray-700 text-theme-sm dark:text-gray-300">Viso klientu</span>
+          <span className="font-semibold text-gray-900 dark:text-white">
             {countryData.reduce((acc, item) => acc + item.customers, 0).toLocaleString()}
           </span>
         </div>

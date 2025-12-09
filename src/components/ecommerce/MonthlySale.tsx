@@ -19,10 +19,10 @@ export default function MonthlySale() {
     <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6 h-full">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
             Menesio pardavimai
           </h3>
-          <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
+          <p className="mt-1 text-gray-700 text-theme-sm dark:text-gray-300">
             Savaitinis pardavimu apzvalga
           </p>
         </div>
@@ -40,15 +40,15 @@ export default function MonthlySale() {
               className="w-full rounded-t-lg bg-brand-500 transition-all duration-300 hover:bg-brand-600"
               style={{ height: `${(item.value / maxValue) * 100}%` }}
             ></div>
-            <span className="mt-2 text-gray-500 text-theme-xs dark:text-gray-400">{item.day}</span>
+            <span className="mt-2 text-gray-700 text-theme-xs dark:text-gray-300">{item.day}</span>
           </div>
         ))}
       </div>
 
       <div className="flex items-center justify-between pt-4 mt-6 border-t border-gray-200 dark:border-gray-800">
         <div>
-          <span className="text-gray-500 text-theme-sm dark:text-gray-400">Viso pardavimu</span>
-          <h4 className="mt-1 text-xl font-bold text-gray-800 dark:text-white/90">$48,574</h4>
+          <span className="text-gray-700 text-theme-sm dark:text-gray-300">Viso pardavimu</span>
+          <h4 className="mt-1 text-xl font-bold text-gray-900 dark:text-white">$48,574</h4>
         </div>
         <span className="flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-success-50 text-success-600 text-sm font-medium dark:bg-success-500/15 dark:text-success-500">
           <svg

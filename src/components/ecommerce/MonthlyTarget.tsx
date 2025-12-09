@@ -11,14 +11,14 @@ export default function MonthlyTarget() {
     <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
       <div className="flex items-center justify-between">
         <div>
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">Menesio tikslas</h3>
-          <p className="mt-1 text-gray-500 text-theme-sm dark:text-gray-400">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Menesio tikslas</h3>
+          <p className="mt-1 text-gray-700 text-theme-sm dark:text-gray-300">
             Tikslas tu pasiekti sio menesio
           </p>
         </div>
         <div className="flex items-center gap-2">
           <span className="block w-3 h-3 rounded-full bg-brand-500"></span>
-          <span className="text-gray-500 text-theme-sm dark:text-gray-400">Pardavimai</span>
+          <span className="text-gray-700 text-theme-sm dark:text-gray-300">Pardavimai</span>
         </div>
       </div>
 
@@ -49,10 +49,10 @@ export default function MonthlyTarget() {
               />
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-3xl font-bold text-gray-800 dark:text-white/90">
+              <span className="text-3xl font-bold text-gray-900 dark:text-white">
                 {targetPercent}%
               </span>
-              <span className="text-gray-500 text-theme-sm dark:text-gray-400">Pasiekta</span>
+              <span className="text-gray-700 text-theme-sm dark:text-gray-300">Pasiekta</span>
             </div>
           </div>
         </div>
@@ -60,14 +60,14 @@ export default function MonthlyTarget() {
 
       <div className="mt-6 space-y-4">
         <div className="flex items-center justify-between">
-          <span className="text-gray-500 text-theme-sm dark:text-gray-400">Tikslas pasiektas</span>
-          <span className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
+          <span className="text-gray-700 text-theme-sm dark:text-gray-300">Tikslas pasiektas</span>
+          <span className="font-medium text-gray-900 text-theme-sm dark:text-white">
             ${targetAmount.toLocaleString()}
           </span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-gray-500 text-theme-sm dark:text-gray-400">Sio menesio tikslas</span>
-          <span className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
+          <span className="text-gray-700 text-theme-sm dark:text-gray-300">Sio menesio tikslas</span>
+          <span className="font-medium text-gray-900 text-theme-sm dark:text-white">
             ${totalTarget.toLocaleString()}
           </span>
         </div>

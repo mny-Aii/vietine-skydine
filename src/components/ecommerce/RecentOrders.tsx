@@ -82,22 +82,22 @@ export default function RecentOrders() {
           <table className="w-full">
             <thead>
               <tr className="border-b border-gray-200 dark:border-gray-800">
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Uzsakymo Nr.
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Produktas
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Klientas
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Data
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Suma
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase dark:text-gray-400">
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-700 uppercase dark:text-gray-300">
                   Busena
                 </th>
               </tr>
@@ -105,19 +105,19 @@ export default function RecentOrders() {
             <tbody>
               {orders.map((order) => (
                 <tr key={order.id} className="border-b border-gray-100 dark:border-gray-800 last:border-b-0">
-                  <td className="px-4 py-4 text-sm font-medium text-gray-800 dark:text-white/90">
+                  <td className="px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
                     {order.id}
                   </td>
-                  <td className="px-4 py-4 text-sm text-gray-600 dark:text-gray-400">
+                  <td className="px-4 py-4 text-sm text-gray-900 dark:text-gray-100">
                     {order.product}
                   </td>
-                  <td className="px-4 py-4 text-sm text-gray-600 dark:text-gray-400">
+                  <td className="px-4 py-4 text-sm text-gray-900 dark:text-gray-100">
                     {order.customer}
                   </td>
-                  <td className="px-4 py-4 text-sm text-gray-600 dark:text-gray-400">
+                  <td className="px-4 py-4 text-sm text-gray-900 dark:text-gray-100">
                     {order.date}
                   </td>
-                  <td className="px-4 py-4 text-sm font-medium text-gray-800 dark:text-white/90">
+                  <td className="px-4 py-4 text-sm font-medium text-gray-900 dark:text-white">
                     {order.amount}
                   </td>
                   <td className="px-4 py-4">
