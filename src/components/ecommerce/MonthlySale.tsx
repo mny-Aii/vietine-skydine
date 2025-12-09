@@ -120,8 +120,11 @@ export default function MonthlySale() {
       fontFamily: 'Outfit, sans-serif',
       animations: {
         enabled: true,
-        easing: 'easeinout',
         speed: 500,
+        dynamicAnimation: {
+          enabled: true,
+          speed: 350,
+        },
       },
       zoom: { enabled: true },
     },
