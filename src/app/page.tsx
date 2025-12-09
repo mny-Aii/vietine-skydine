@@ -7,6 +7,7 @@ import MonthlySale from '@/components/ecommerce/MonthlySale'
 import StatisticsChart from '@/components/ecommerce/StatisticsChart'
 import CustomerDemographic from '@/components/ecommerce/CustomerDemographic'
 import RecentOrders from '@/components/ecommerce/RecentOrders'
+import DashboardCalendar from '@/components/ecommerce/DashboardCalendar'
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
 
         <div className="col-span-12 xl:col-span-7">
           <RecentOrders />
+        </div>
+
+        <div className="col-span-12 xl:col-span-5">
+          <DashboardCalendar />
         </div>
       </div>
     </AdminLayout>

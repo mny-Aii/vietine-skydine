@@ -385,3 +385,24 @@
 .fc .fc-more-link {
   @apply !text-brand-500 dark:!text-brand-400 hover:!text-brand-600 dark:hover:!text-brand-300 !font-medium;
 }
+
+/* Dashboard Calendar Mini Styles */
+.dashboard-calendar .fc .fc-toolbar-title {
+  @apply !text-base;
+}
+
+.dashboard-calendar .fc .fc-button {
+  @apply !px-2 !py-1 !text-xs;
+}
+
+.dashboard-calendar .fc .fc-daygrid-day-number {
+  @apply !text-xs !p-1;
+}
+
+.dashboard-calendar .fc .fc-col-header-cell-cushion {
+  @apply !py-2 !text-xs;
+}
+
+.dashboard-calendar .fc .fc-event {
+  @apply !text-xs !px-1 !py-0.5;
+}
