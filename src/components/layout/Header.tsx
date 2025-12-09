@@ -35,20 +35,7 @@ export default function Header() {
 
           {/* Mobile Logo */}
           <Link href="/" className="lg:hidden">
-            <img
-              className="dark:hidden"
-              src="/images/logo/logo.svg"
-              alt="Logo"
-              width={150}
-              height={40}
-            />
-            <img
-              className="hidden dark:block"
-              src="/images/logo/logo-dark.svg"
-              alt="Logo"
-              width={150}
-              height={40}
-            />
+            <span className="text-xl font-bold text-brand-500">IT SANCHAJUS</span>
           </Link>
 
           <button

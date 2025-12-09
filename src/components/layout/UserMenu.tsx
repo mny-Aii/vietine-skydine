@@ -32,8 +32,8 @@ export default function UserMenu() {
         onClick={toggleDropdown}
         className="flex items-center text-gray-700 dropdown-toggle dark:text-gray-400"
       >
-        <span className="mr-3 overflow-hidden rounded-full h-11 w-11">
-          <img src="/images/user/owner.jpg" alt="Vartotojas" />
+        <span className="mr-3 flex items-center justify-center rounded-full h-11 w-11 bg-brand-500 text-white font-bold text-sm">
+          IT
         </span>
 
         <span className="hidden mr-1 font-medium text-gray-700 text-theme-sm lg:block dark:text-gray-400">
@@ -61,8 +61,8 @@ export default function UserMenu() {
       {dropdownOpen && (
         <div className="absolute right-0 z-40 w-[260px] space-y-1 rounded-2xl border border-gray-200 bg-white p-3 shadow-theme-lg dark:border-gray-800 dark:bg-gray-dark">
           <div className="flex items-center gap-3 px-3 py-2">
-            <div className="w-10 h-10 overflow-hidden rounded-full">
-              <img src="/images/user/owner.jpg" alt="Vartotojas" />
+            <div className="w-10 h-10 flex items-center justify-center rounded-full bg-brand-500 text-white font-bold text-sm">
+              IT
             </div>
             <div>
               <p className="font-medium text-gray-800 text-theme-sm dark:text-white/90">
