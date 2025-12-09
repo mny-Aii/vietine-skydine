@@ -31,7 +31,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
               href="#"
               className="text-brand-500 hover:text-brand-600 transition-colors duration-200 font-medium"
             >
-              Vierchatura
+              IT Sanchajus
             </a>
           </p>
         </footer>

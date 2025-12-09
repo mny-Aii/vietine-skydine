@@ -144,9 +144,9 @@ export default function Sidebar() {
       <div className={`py-8 flex ${!isExpanded && !isHovered ? 'lg:justify-center' : 'justify-start'}`}>
         <Link href="/" className="flex items-center gap-2">
           {(isExpanded || isHovered || isMobileOpen) ? (
-            <span className="text-2xl font-bold text-brand-500">Vierchatura</span>
+            <span className="text-xl font-bold text-brand-500">IT SANCHAJUS</span>
           ) : (
-            <span className="text-2xl font-bold text-brand-500">V</span>
+            <span className="text-2xl font-bold text-brand-500">IT</span>
           )}
         </Link>
       </div>

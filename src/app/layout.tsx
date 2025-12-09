@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/context/ThemeContext'
 const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Vierchatura - Valdymo skydas',
+  title: 'IT Sanchajus - Valdymo skydas',
   description: 'Modernus valdymo skydo sablonas',
 }
 
