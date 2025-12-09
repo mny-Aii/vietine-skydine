@@ -261,3 +261,127 @@
 .react-datepicker__year-text--keyboard-selected {
   @apply !bg-brand-500 !text-white hover:!bg-brand-600;
 }
+
+/* FullCalendar Styles */
+.fc {
+  @apply !font-outfit;
+}
+
+.fc .fc-toolbar-title {
+  @apply !text-gray-900 dark:!text-white !text-lg !font-semibold;
+}
+
+.fc .fc-button {
+  @apply !bg-brand-500 !border-brand-500 !text-white hover:!bg-brand-600 hover:!border-brand-600 !font-medium !text-sm !px-3 !py-2 !rounded-lg !shadow-none;
+}
+
+.fc .fc-button:disabled {
+  @apply !opacity-50;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+  @apply !bg-brand-600 !border-brand-600;
+}
+
+.fc .fc-col-header-cell {
+  @apply !bg-gray-50 dark:!bg-gray-800 !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-col-header-cell-cushion {
+  @apply !text-gray-700 dark:!text-gray-300 !font-medium !py-3;
+}
+
+.fc .fc-daygrid-day {
+  @apply !bg-white dark:!bg-gray-900 !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-daygrid-day:hover {
+  @apply !bg-gray-50 dark:!bg-gray-800;
+}
+
+.fc .fc-daygrid-day-number {
+  @apply !text-gray-900 dark:!text-gray-100 !font-medium;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  @apply !bg-brand-50 dark:!bg-brand-500/10;
+}
+
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+  @apply !text-brand-500 dark:!text-brand-400;
+}
+
+.fc .fc-daygrid-day.fc-day-other .fc-daygrid-day-number {
+  @apply !text-gray-400 dark:!text-gray-600;
+}
+
+.fc .fc-event {
+  @apply !border-0 !rounded-md !px-2 !py-1 !text-sm !font-medium !cursor-pointer;
+}
+
+.fc .fc-timegrid-slot {
+  @apply !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-timegrid-slot-label {
+  @apply !text-gray-500 dark:!text-gray-400 !text-xs;
+}
+
+.fc .fc-timegrid-axis {
+  @apply !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-scrollgrid {
+  @apply !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-scrollgrid td,
+.fc .fc-scrollgrid th {
+  @apply !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-list {
+  @apply !border-gray-200 dark:!border-gray-700;
+}
+
+.fc .fc-list-day-cushion {
+  @apply !bg-gray-50 dark:!bg-gray-800;
+}
+
+.fc .fc-list-day-text,
+.fc .fc-list-day-side-text {
+  @apply !text-gray-900 dark:!text-white !font-medium;
+}
+
+.fc .fc-list-event:hover td {
+  @apply !bg-gray-50 dark:!bg-gray-800;
+}
+
+.fc .fc-list-event-title {
+  @apply !text-gray-900 dark:!text-gray-100;
+}
+
+.fc .fc-list-event-time {
+  @apply !text-gray-500 dark:!text-gray-400;
+}
+
+.fc .fc-list-empty {
+  @apply !bg-white dark:!bg-gray-900;
+}
+
+.fc .fc-list-empty-cushion {
+  @apply !text-gray-500 dark:!text-gray-400;
+}
+
+.fc .fc-popover {
+  @apply !bg-white dark:!bg-gray-800 !border-gray-200 dark:!border-gray-700 !rounded-lg !shadow-lg;
+}
+
+.fc .fc-popover-header {
+  @apply !bg-gray-50 dark:!bg-gray-900 !text-gray-900 dark:!text-white;
+}
+
+.fc .fc-more-link {
+  @apply !text-brand-500 dark:!text-brand-400 hover:!text-brand-600 dark:hover:!text-brand-300 !font-medium;
+}
