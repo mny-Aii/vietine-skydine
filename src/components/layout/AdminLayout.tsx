@@ -26,23 +26,13 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
         <div className="p-4 mx-auto max-w-[1536px] md:p-6">{children}</div>
         <footer className="p-4 mx-auto max-w-[1536px] md:p-6 pt-0">
           <p className="text-sm text-center text-gray-500 dark:text-gray-400">
-            Sukurta ir sukurta{' '}
+            Sukurta{' '}
             <a
               href="#"
               className="text-brand-500 hover:text-brand-600 transition-colors duration-200 font-medium"
             >
-              Vietine skydine
-            </a>{' '}
-            ~ Platinama{' '}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brand-500 hover:text-brand-600 transition-colors duration-200 font-medium"
-            >
-              ThemeWagon
+              Vierchatura
             </a>
-            .
           </p>
         </footer>
       </div>

@@ -7,8 +7,8 @@ import { ThemeProvider } from '@/context/ThemeContext'
 const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Vietine skydine - Valdymo skydo sablonas',
-  description: 'Nemokamas ir atviro kodo Tailwind CSS valdymo skydo sablonas',
+  title: 'Vierchatura - Valdymo skydas',
+  description: 'Modernus valdymo skydo sablonas',
 }
 
 export default function RootLayout({
